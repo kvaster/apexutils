@@ -2,14 +2,15 @@ package main
 
 import (
 	"flag"
-	"github.com/kvaster/apexutils/log"
+	"github.com/apex/log"
+	"github.com/kvaster/apexutils"
 	"time"
 )
 
 // simple test
 func main() {
 	flag.Parse()
-	log.ParseFlags()
+	apexutils.ParseFlags()
 
 	for i := 0; i < 5; i++ {
 		someLog()
