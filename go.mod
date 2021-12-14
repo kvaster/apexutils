@@ -1,4 +1,4 @@
-module apexutils
+module github.com/kvaster/apexutils
 
 go 1.17
 

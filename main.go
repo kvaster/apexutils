@@ -1,8 +1,8 @@
 package main
 
 import (
-	"apexutils/log"
 	"flag"
+	"github.com/kvaster/apexutils/log"
 	"time"
 )
 
