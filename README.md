@@ -5,13 +5,11 @@ Usage in go:
 ```go
 package main
 
-import "github.com/kvaster/apexutils/log"
+import "github.com/kvaster/apexutils"
 
 func main() {
     flag.Parse()
-    log.ParseFlags()
-	
-	log.Info("some log")
+    apexutils.ParseFlags()
 }
 ```
 
